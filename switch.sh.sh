@@ -10,12 +10,20 @@ case $month in
     echo "28/29 days in $month"
     ;;
 
-  April | June | September | November)
+  April | June )
   echo "30 days in $month"
   ;;
 
-  January | March | May | July | August | October | December )
+  September | November)
+  echo "30/31 days in $month"
+  ;;
+
+  January | March | May | July )
   echo "31 days in $month"
+  ;;
+
+   August | October | December)
+    echo "29/31 days in $month"
     ;;
 
   *)
