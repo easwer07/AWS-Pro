@@ -1,7 +1,7 @@
 #!/bin/bash
  # Initializing the variable
  a=20
- if [ $a < 10 ] 
+if [ $a < 10 ] 
 then  
       # If variable less than 10    
       echo "a is less than 10" 
