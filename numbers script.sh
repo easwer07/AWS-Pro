@@ -12,4 +12,6 @@ then
 else   
      # If variable is greater than 25   
      echo "a is greater than 25"  
-fi 
+fi
+
+chmod 777 states.sh
