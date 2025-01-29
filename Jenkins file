@@ -12,12 +12,5 @@ pipeline {
                 echo 'Testing..'
             }
         }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-
-                sh /home/ec2-user/shell_dir/sample11.sh
-            }
-        }
     }
 }
